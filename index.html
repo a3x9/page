@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alnes</title>
+</head>
+
+<body>
+
+    <img src="logo-text.svg" class="logo">
+    <div style="text-align: center;">
+        <div style="padding: 20px;"></div>
+        <video autoplay muted loop>
+            <source src="output.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+        <h2>We design in <br> timeless perspective</h2>
+    </div>
+    <div class="accordion">
+        <div class="accordion-item"> <!-- Cursor -->
+            <input type="checkbox" id="item1" class="accordion-input">
+            <label for="item1" class="accordion-label">Cursor</label>
+            <div class="accordion-content">
+                <figure>
+                    <img src="/cursor/mono.svg" alt="">
+                    <p>Cursors banner</p>
+                </figure>
+                <p>Reasonable and distinct in
+                    screen without shader.
+                    Looks same in low resolution screens.</p>
+                <a href="/files/cur.tar.gz"><button>Download</button></a>
+
+            </div>
+        </div>
+        <div class="accordion-item"> <!-- Server -->
+            <input type="checkbox" id="item2" class="accordion-input">
+            <label for="item2" class="accordion-label">Server</label>
+            <div class="accordion-content">
+                <p> Simple web server for host basic webpages and files.
+                    Configure via editing "s1.c" file and recompile.
+                    Written in C.</p>
+                <a href="/files/s1.tar.gz"><button>Download</button></a>
+
+            </div>
+        </div>
+        <div class="accordion-item"> <!-- Emoji Picker -->
+            <input type="checkbox" id="item3" class="accordion-input">
+            <label for="item3" class="accordion-label">Emoji Picker</label>
+            <div class="accordion-content">
+                <p>Fixed some issues added sort of brainrot
+                    keywords for find easier. <br>
+                    You can easly implement emoji picker anyware, like this command:</p>
+
+                <code>wtype $(cat emojis | tofi | cut -f1)</code><br>
+                <a href="/files/emojis"><button>Download</button></a>
+            </div>
+        </div>
+        <div class="accordion-item"> <!-- Dictionary -->
+            <input type="checkbox" id="item4" class="accordion-input">
+            <label for="item4" class="accordion-label">Dictionary</label>
+            <div class="accordion-content">
+                <figure>
+                    <video autoplay muted loop width="500">
+                        <source src="files/preview.webm" type="video/webm">
+                        Your browser does not support video.
+                    </video>
+                    <p>Showing how it works</p>
+                </figure>
+                <p>Depends on fzf (fuzzy finder).
+                    In default it comes with En-En dictionary, also you can
+                    create your own dictionarys or load ones.</p>
+                <a href="/files/dict.tar.gz"><button>Download</button></a>
+
+            </div>
+        </div>
+        <div class="accordion-item"> <!-- YouTube Finder -->
+            <input type="checkbox" id="item5" class="accordion-input">
+            <label for="item5" class="accordion-label">YouTube Finder</label>
+            <div class="accordion-content">
+                <p>Find videos on CLI and play. Using fzf and mpv written in shell.</p>
+                <a href="/ytf/ytf.sh"><button>Download</button></a>
+
+            </div>
+
+        </div>
+        <div class="accordion-item"> <!-- Browser -->
+            <input type="checkbox" id="item6" class="accordion-input">
+            <label for="item6" class="accordion-label">Browser</label>
+            <div class="accordion-content">
+                <p>Deletes all headers and
+                shows content as plain text.
+                Written in C++.</p>
+                <a href="/browser/w1.tar.gz"><button>Download</button></a>
+
+            </div>
+
+        </div>
+    <footer>
+        <small>Licensed under MIT</small>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+<svg
+   width="120mm"
+   height="110mm"
+   viewBox="0 0 120 110"
+   xmlns="http://www.w3.org/2000/svg">
+  <path
+     d="M 69,0 H 23 L 40,30 0,100 H 46 L 63,70 h 46 z"
+     style="fill:#ffff"
+     transform="translate(5, 5)"/>
+</svg>
