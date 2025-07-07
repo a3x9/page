@@ -2,13 +2,11 @@
     font-family: 'inter';
     src: url('inter.woff2') format('woff2');
 }
-
 @font-face {
     font-family: 'jetbrains';
+    font-display: auto;
     src: url('jetbrains.woff2') format('woff2');
 }
-
-
 body {
     font: 1em inter, sans-serif;
     background-color: black;
@@ -20,61 +18,15 @@ body {
 code{
     font: 1em jetbrains;
 }
-
-
 figure {
   text-align: center;
   padding: 5px;
 }
-
 figure > img {
     max-width: 100%;
 }
 video{
     max-width: 100%;
-}
-.logo {
-    height: 30px;
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
-.accordion {
-    max-width: 600px;
-}
-
-.accordion-item {
-    border-bottom: 1px solid #ddd;
-}
-
-.accordion-input {
-    display: none;
-}
-
-.accordion-label {
-    display: block;
-    padding: 15px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1.5em;
-    transition: background 0.3s;
-}
-
-.accordion-label:hover {
-    color: #d9d9d9;
-}
-
-.accordion-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-    padding: 0 15px;
-}
-
-.accordion-input:checked+.accordion-label+.accordion-content {
-    max-height: 600px;
-    padding: 15px;
 }
 button {
     transition-duration: 0.2s;
@@ -86,7 +38,6 @@ button {
     padding: 6px 10px;
     border-radius: 6px;
 }
-
 button:hover {
     background-color: rgb(31, 102, 255);
     color: white;
@@ -96,4 +47,40 @@ button:hover {
 footer{
     padding-top: 20px;
     text-align: center;
+}
+.logo {
+    height: 30px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.accordion {
+    max-width: 600px;
+}
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+.accordion-input {
+    display: none;
+}
+.accordion-label {
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5em;
+    transition: background 0.3s;
+}
+.accordion-label:hover {
+    color: #d9d9d9;
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding: 0 15px;
+}
+.accordion-input:checked+.accordion-label+.accordion-content {
+    max-height: 600px;
+    padding: 15px;
 }
