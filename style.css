@@ -1,10 +1,11 @@
 @font-face {
     font-family: 'inter';
+    font-display: optional;
     src: url('/inter-tr.woff2') format('woff2');
 }
 @font-face {
     font-family: 'jetbrains';
-    font-display: auto;
+    font-display: optional;
     src: url('/jetbrains-tr.woff2') format('woff2');
 }
 body {
