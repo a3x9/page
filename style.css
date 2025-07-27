@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'inter';
-    src: url('inter.woff2') format('woff2');
+    src: url('/inter-tr.woff2') format('woff2');
 }
 @font-face {
     font-family: 'jetbrains';
     font-display: auto;
-    src: url('jetbrains.woff2') format('woff2');
+    src: url('/jetbrains-tr.woff2') format('woff2');
 }
 body {
     font: 1em inter, sans-serif;
@@ -39,7 +39,6 @@ button {
 }
 button:hover {
     background-color: rgb(7, 114, 255);
-    color: white;
     box-shadow: 1em;
     cursor: pointer;
 }
@@ -83,4 +82,8 @@ footer{
 .accordion-input:checked+.accordion-label+.accordion-content {
     max-height: 600px;
     padding: 15px;
+}
+::selection {
+  color: black;
+  background-color: white;
 }
