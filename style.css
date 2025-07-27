@@ -68,7 +68,6 @@ footer{
     cursor: pointer;
     font-weight: 600;
     font-size: 1.5em;
-    transition: 1s;
 }
 .accordion-label:hover {
     color: #d9d9d9;
